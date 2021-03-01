@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+<head>
+  <title>Game</title>
+</head>
+<body>
+  <form action="/madlib">
+    <div>Fill in this form:</div>
+    <div>
+        <label>Person:</label>
+        <input type="text" name="person">
+    </div>
+
+    <div>
+        Color:
+        <input type='radio' name='color' value='black'>
+        <label>Black</label>
+        <input type='radio' name='color' value='red'>
+        <label>Red</label>
+        <input type='radio' name='color' value='blue'>
+        <label>Blue</label>
+    </div>
+
+    <div>
+        Noun:
+        <select name="noun">
+            <option value="desk">desk</option>
+            <option value="pencil">pencil</option>
+            <option value="apple">apple</option>
+        </select>
+    </div>
+    
+    <div>
+      adjective:
+      <input type='checkbox' name='adjectives' value='awesome'>
+      <label>Awesome</label>
+      <input type='checkbox' name='adjectives' value='pretty'>
+      <label>Pretty</label>
+      <input type='checkbox' name='adjectives' value='great'>
+      <label>Great</label>
+    </div>
+    
+    <div>
+      place:
+      <input type='checkbox' name='places' value='Tea Pot'>
+      <label>Tea Pot</label>
+      <input type='checkbox' name='places' value='field'>
+      <label>Field</label>
+      <input type='checkbox' name='places' value='Swimming Pool'>
+      <label>Swimming Pool</label>
+    </div>
+
+
+    
+    <input type='submit'>
+  </form>
+
+</body>
+</html>
